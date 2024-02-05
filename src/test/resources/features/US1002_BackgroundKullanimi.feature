@@ -6,6 +6,7 @@ Feature: US1002 Kullanici Background ozelligini kullanir
   Background: anasayfaya gitme
     Given kullanici Testotomasyon sayfasina gider
 
+    @wip
   Scenario:TC04 kullanici phone icin arama yapabilmeli
     And phone icin arama yapar
     Then aradigi urunun bulundugunu test eder
