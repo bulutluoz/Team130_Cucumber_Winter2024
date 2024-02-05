@@ -91,4 +91,9 @@ public class TestotomasyonStepdefinitions {
     public void basarili_giris_yapilabildigini_test_eder() {
         Assert.assertTrue(testOtomasyonPage.logoutButonu.isDisplayed());
     }
+
+    @Then("sisteme giris yapamadigini test eder")
+    public void sisteme_giris_yapamadigini_test_eder() {
+        Assert.assertTrue(testOtomasyonPage.emailKutusu.isDisplayed());
+    }
 }
