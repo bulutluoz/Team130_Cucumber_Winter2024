@@ -1,6 +1,6 @@
 Feature: US1007 Sauce demo alisveris sepeti testi
 
-  @wip
+
   Scenario: TC15 Kullanici sectigi urunu sepete ekleyebilmeli
 
     Given kullanici "sauceUrl" anasayfaya gider
