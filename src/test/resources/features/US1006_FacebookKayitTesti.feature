@@ -1,5 +1,5 @@
 Feature: Kullanici facebook'a kayit icin form doldurabilmeli
-  @wip
+
   Scenario: TC14 faker class ile kullanici formu doldurulabilmeli
 
     Given kullanici "faceUrl" anasayfaya gider
