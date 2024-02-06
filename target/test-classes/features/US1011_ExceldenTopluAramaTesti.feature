@@ -1,6 +1,6 @@
 
   Feature: US1012 kullanici excel olarak verilen listedeki urunleri aratir
-    @wip
+
     Scenario Outline: TC19 excelden sececegimiz satirdaki urunlerin min urun sayisi test edilir
 
       Given kullanici "toUrl" anasayfaya gider
