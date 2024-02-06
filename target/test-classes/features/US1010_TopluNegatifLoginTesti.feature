@@ -1,6 +1,6 @@
 
   Feature: US1010 kullanici verilen yanlis bilgilerle giris yapamaz
-    @wip
+
     Scenario Outline: TC18 yanlis bilgilerle giris yapilamadigini test eder
 
       Given kullanici "toUrl" anasayfaya gider
