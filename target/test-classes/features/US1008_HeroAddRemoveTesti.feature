@@ -1,6 +1,6 @@
 Feature: US1008 kullanici add ve remove butonlarini test eder
 
-  @wip
+
   Scenario: TC16 Kullanici add ve remove butonlarini kullanabilmeli
 
     Given kullanici "heroUrl" anasayfaya gider
