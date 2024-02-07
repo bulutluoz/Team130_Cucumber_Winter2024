@@ -1,7 +1,7 @@
 
 
   Feature: US1003 kullanici parametre olarak verilen urunu aratabilmeli
-
+    @deneme
     Scenario: TC07 parametre ile arama yapilabilmeli
       Given kullanici Testotomasyon sayfasina gider
       And "baby" icin arama yapar

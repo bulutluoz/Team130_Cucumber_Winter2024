@@ -3,6 +3,7 @@
 
     @wip
     Scenario: TC23 yanlis bilgilerle giris yapilamadigini test eder
+
       Given kullanici "webUniUrl" anasayfaya gider
       Then Login Portal a  kadar asagi iner
       And  Login Portal a tiklar

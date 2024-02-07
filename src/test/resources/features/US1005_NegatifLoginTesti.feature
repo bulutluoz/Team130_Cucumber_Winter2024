@@ -1,5 +1,5 @@
 
-
+@smoke
 Feature: US1005 gecersiz bilgilerle sisteme giris yapilamamali
 
 
