@@ -1,6 +1,6 @@
 
   Feature: US1013 Kullanicilar kayit olusturabilmeli
-    @wip
+
     Scenario: : TC21 kullanici verilen listeden kayit olusturabilmeli
       When kullanici "editorUrl" anasayfaya gider
       Then new butonuna basar
