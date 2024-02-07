@@ -1,7 +1,7 @@
 
   Feature: US1012 kullanici exceldeki tum urunlerin stoklarini test eder
 
-    @wip
+
     Scenario: TC20 exceldeki tum urunlerin min miktarda bulundugunu test eder
 
       Given kullanici "toUrl" anasayfaya gider
