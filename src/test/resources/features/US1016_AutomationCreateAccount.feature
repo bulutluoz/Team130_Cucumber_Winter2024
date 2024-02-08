@@ -10,4 +10,4 @@ Feature: US1016 Kullanici yeni kayit olusturur
     And user kisisel bilgilerini ve iletisim bilgilerini girer
     And user Create Account butonuna basar
     Then hesap olustugunu test eder
-    And sayfayi kapatir
+
