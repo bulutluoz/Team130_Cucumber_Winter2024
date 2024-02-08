@@ -5,7 +5,7 @@ Feature: US1004 Kullanici gecerli bilgilerle sisteme giris yapabilmeli
 
     Given kullanici "toUrl" anasayfaya gider
     Then account butonuna basar
-    And email olarak "toGecersizEmail" girer
+    And email olarak "toGecerliEmail" girer
     And password olarak "toGecerliPassword" girer
     Then signIn butonuna basar
     And basarili giris yapilabildigini test eder

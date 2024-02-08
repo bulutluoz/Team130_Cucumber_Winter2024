@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.126" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="US1016 Kullanici yeni kayit olusturur" name="TC24 kullanici kayit olusturabilmeli" time="0.017">
+<failure/>
+<system-out><![CDATA[
+Given kullanici "automationUrl" anasayfaya gider............................passed
+And user sign up linkine tiklar.............................................undefined
+And user Create an account bölümüne email adresi girer......................skipped
+And signUp butonuna basar...................................................skipped
+And user kisisel bilgilerini ve iletisim bilgilerini girer..................skipped
+And user Create Account butonuna basar......................................skipped
+Then hesap olustugunu test eder.............................................skipped
+And sayfayi kapatir.........................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

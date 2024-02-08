@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="58.586" tests="8" skipped="0" failures="1" errors="0">
+<testcase classname="US1007 Sauce demo alisveris sepeti testi" name="TC15 Kullanici sectigi urunu sepete ekleyebilmeli" time="12.93">
+<system-out><![CDATA[
+Given kullanici "sauceUrl" anasayfaya gider.................................passed
+And 2 saniye bekler.........................................................passed
+Then saucedemo username kutusuna "standard_user" yazar......................passed
+And saucedemo password kutusuna "secret_sauce" yazar........................passed
+Then saucedemo login tusuna basar...........................................passed
+And ilk urunun ismini kaydeder ve bu urunun sayfasina gider.................passed
+When saucedemo add to Cart butonuna basar...................................passed
+Then saucedemo alisveris sepetine tiklar....................................passed
+And sectigi urunun basarili olarak sepete eklendigini test eder.............passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1009 Kullanici verilen listedeki tum urunleri aratir" name="TC17 kullanici listedeki tum urunlerin var oldugunu test eder - Example #1.1" time="4.884">
+<system-out><![CDATA[
+Given kullanici "toUrl" anasayfaya gider....................................passed
+Then "phone" icin arama yapar...............................................passed
+And aradigi urunun bulundugunu test eder....................................passed
+And 1 saniye bekler.........................................................passed
+Then sayfayi kapatir........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1009 Kullanici verilen listedeki tum urunleri aratir" name="TC17 kullanici listedeki tum urunlerin var oldugunu test eder - Example #1.2" time="12.992">
+<failure type="java.lang.AssertionError">
+<![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.TestotomasyonStepdefinitions.aradigi_urunun_bulundugunu_test_eder(TestotomasyonStepdefinitions.java:39)
+	at ✽.aradigi urunun bulundugunu test eder(file:///Users/ahmetbulutluoz/Desktop/My%20Desktop/course/projeler/Team130_Cucumber/src/test/resources/features/US1009_TestotomasyonuTopluArama.feature:10)
+]]>
+</failure>
+<system-out><![CDATA[
+Given kullanici "toUrl" anasayfaya gider....................................passed
+Then "java" icin arama yapar................................................passed
+And aradigi urunun bulundugunu test eder....................................failed
+And 1 saniye bekler.........................................................skipped
+Then sayfayi kapatir........................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="US1009 Kullanici verilen listedeki tum urunleri aratir" name="TC17 kullanici listedeki tum urunlerin var oldugunu test eder - Example #1.3" time="5.572">
+<system-out><![CDATA[
+Given kullanici "toUrl" anasayfaya gider....................................passed
+Then "dress" icin arama yapar...............................................passed
+And aradigi urunun bulundugunu test eder....................................passed
+And 1 saniye bekler.........................................................passed
+Then sayfayi kapatir........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1009 Kullanici verilen listedeki tum urunleri aratir" name="TC17 kullanici listedeki tum urunlerin var oldugunu test eder - Example #1.4" time="5.379">
+<system-out><![CDATA[
+Given kullanici "toUrl" anasayfaya gider....................................passed
+Then "baby" icin arama yapar................................................passed
+And aradigi urunun bulundugunu test eder....................................passed
+And 1 saniye bekler.........................................................passed
+Then sayfayi kapatir........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1009 Kullanici verilen listedeki tum urunleri aratir" name="TC17 kullanici listedeki tum urunlerin var oldugunu test eder - Example #1.5" time="5.317">
+<system-out><![CDATA[
+Given kullanici "toUrl" anasayfaya gider....................................passed
+Then "iphone" icin arama yapar..............................................passed
+And aradigi urunun bulundugunu test eder....................................passed
+And 1 saniye bekler.........................................................passed
+Then sayfayi kapatir........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1009 Kullanici verilen listedeki tum urunleri aratir" name="TC17 kullanici listedeki tum urunlerin var oldugunu test eder - Example #1.6" time="5.671">
+<system-out><![CDATA[
+Given kullanici "toUrl" anasayfaya gider....................................passed
+Then "samsung" icin arama yapar.............................................passed
+And aradigi urunun bulundugunu test eder....................................passed
+And 1 saniye bekler.........................................................passed
+Then sayfayi kapatir........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1013 Kullanicilar kayit olusturabilmeli" name=": TC21 kullanici verilen listeden kayit olusturabilmeli" time="5.713">
+<system-out><![CDATA[
+When kullanici "editorUrl" anasayfaya gider.................................passed
+Then new butonuna basar.....................................................passed
+And tum bilgileri girer.....................................................passed
+And Create tusuna basar.....................................................passed
+When kullanici ilk isim ile arama yapar.....................................passed
+Then isim bolumunde isminin oldugunu dogrular...............................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,6 +1,6 @@
 Feature: US1007 Sauce demo alisveris sepeti testi
 
-
+  @e2e
   Scenario: TC15 Kullanici sectigi urunu sepete ekleyebilmeli
 
     Given kullanici "sauceUrl" anasayfaya gider
