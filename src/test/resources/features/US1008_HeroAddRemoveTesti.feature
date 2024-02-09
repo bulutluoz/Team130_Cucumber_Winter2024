@@ -1,6 +1,6 @@
 Feature: US1008 kullanici add ve remove butonlarini test eder
 
-  @smoke
+  @smoke @rapor
   Scenario: TC16 Kullanici add ve remove butonlarini kullanabilmeli
 
     Given kullanici "heroUrl" anasayfaya gider
@@ -11,4 +11,4 @@ Feature: US1008 kullanici add ve remove butonlarini test eder
     And Delete butonunun gorunmedigini test eder
     And Add Remove Elements yazisinin gorunur oldugunu test eder
     And 2 saniye bekler
-    And sayfayi kapatir
+

@@ -14,9 +14,11 @@ pages/ToAddRemovePage.class
 stepdefinitions/TestotomasyonStepdefinitions.class
 stepdefinitions/Hooks.class
 pages/TestOtomasyonPage.class
+stepdefinitions/AutomationExerciseStepdefinitions.class
 runners/ParalelRun2.class
 stepdefinitions/EditorStepdefinitions.class
 utilities/Driver.class
 stepdefinitions/SauceDemoStepdefinitions.class
 pages/TestotomasyonFormPage.class
+pages/AutomationPage.class
 stepdefinitions/WebuniversityStepdefinitions.class

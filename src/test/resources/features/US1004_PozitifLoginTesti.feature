@@ -1,6 +1,6 @@
 Feature: US1004 Kullanici gecerli bilgilerle sisteme giris yapabilmeli
 
-  @smoke @resim
+  @smoke @rapor
   Scenario: TC10 gecerli username ve password ile sisteme giris yapilabilmeli
 
     Given kullanici "toUrl" anasayfaya gider
@@ -10,4 +10,4 @@ Feature: US1004 Kullanici gecerli bilgilerle sisteme giris yapabilmeli
     Then signIn butonuna basar
     And basarili giris yapilabildigini test eder
     And 3 saniye bekler
-    And sayfayi kapatir
+

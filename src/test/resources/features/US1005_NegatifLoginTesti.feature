@@ -1,5 +1,5 @@
 
-@smoke
+@smoke @rapor
 Feature: US1005 gecersiz bilgilerle sisteme giris yapilamamali
 
 
@@ -12,7 +12,7 @@ Feature: US1005 gecersiz bilgilerle sisteme giris yapilamamali
     Then signIn butonuna basar
     And sisteme giris yapamadigini test eder
     And 3 saniye bekler
-    And sayfayi kapatir
+
 
   Scenario: TC12 Gecersiz email, gecerli password ile sisteme giris yapilamaz
 
@@ -23,7 +23,7 @@ Feature: US1005 gecersiz bilgilerle sisteme giris yapilamamali
     Then signIn butonuna basar
     And sisteme giris yapamadigini test eder
     And 3 saniye bekler
-    And sayfayi kapatir
+
 
   Scenario: TC13 Gecersiz email, gecersiz password ile sisteme giris yapilamaz
 
@@ -34,4 +34,3 @@ Feature: US1005 gecersiz bilgilerle sisteme giris yapilamamali
     Then signIn butonuna basar
     And sisteme giris yapamadigini test eder
     And 3 saniye bekler
-    And sayfayi kapatir

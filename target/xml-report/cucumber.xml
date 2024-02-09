@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="31.352" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="US1016 Kullanici yeni kayit olusturur" name="TC24 kullanici kayit olusturabilmeli" time="31.262">
+<testsuite name="Cucumber" time="7.622" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="US1017 Kullanici listedeki sirketleri yazdirir" name="TC25 Kullanici istenen sirketlerin listede oldugunu test eder" time="7.528">
 <system-out><![CDATA[
-Given kullanici "automationUrl" anasayfaya gider............................passed
-And user sign up linkine tiklar.............................................passed
-And user Create an account bolumune email adresi girer......................passed
-And signUp butonuna basar...................................................passed
-And user kisisel bilgilerini ve iletisim bilgilerini girer..................passed
-And user Create Account butonuna basar......................................passed
-Then hesap olustugunu test eder.............................................passed
+Given kullanici "demoGuruUrl" anasayfaya gider..............................passed
+Then Company listesini consola yazdirir.....................................passed
+And listede 20'den fazla sirket oldugunu test eder..........................passed
+And "Jet Airways" %Change oraninin pozitif oldugunu test eder...............passed
+Then 3 saniye bekler........................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
